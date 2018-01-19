@@ -4,6 +4,7 @@ import OrderSummary from '../components/OrderSummary';
 
 const ShoppingCart = () => {
     return (
+        <div id="content">
         <div className="container">
             <div> 
                 <Col md={12}>
@@ -43,7 +44,7 @@ const ShoppingCart = () => {
                                             <td><a href="basket.html#">White Blouse Armani</a>
                                             </td>
                                             <td>
-                                                <input type="number" defaultValue={2} className="form-control" />
+                                                <input type="number" defaultValue={2} className="form-control"/>
                                             </td>
                                             <td>$123.00</td>
                                             <td>$0.00</td>
@@ -84,7 +85,7 @@ const ShoppingCart = () => {
                                     <a href="category.html" className="btn btn-default"><i className="fa fa-chevron-left"></i> Continue shopping</a>
                                 </div>
                                 <div className="pull-right">
-                                    <button className="btn btn-default"><i className="fa fa-refresh"></i> Update basket</button>
+                                    <button className="btn btn-default" style={{marginRight: 0.5 + 'em'}}><i className="fa fa-refresh"></i> Update basket</button>
                                     <button type="submit" className="btn btn-primary">Proceed to checkout <i className="fa fa-chevron-right"></i>
                                     </button>
                                 </div>
@@ -218,7 +219,8 @@ const ShoppingCart = () => {
                         </div>
                     </Col>
                 </div>
-            </div> 
+            </div>  
+        </div>           
     );
 }
 

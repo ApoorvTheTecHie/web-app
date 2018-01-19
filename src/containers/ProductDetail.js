@@ -19,7 +19,8 @@ const ProductDetail = () => {
                         </ul>
                     </Col>    
                 </div>
-                <SideBar />
+
+                    <SideBar />    
                 <div>
                     <Col md={9}>
                         <div className="row" id="productMain">
@@ -131,7 +132,7 @@ const ProductDetail = () => {
                             </div>
 
                             <div> 
-                                <Col md={6} sm={6}>
+                                <Col md={3} sm={6}>
                                     <div className="product same-height">
                                         <div className="flip-container">
                                             <div className="flipper">

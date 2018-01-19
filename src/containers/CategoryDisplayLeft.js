@@ -92,8 +92,8 @@ const CategoryDisplayLeft = () => {
                                             <h3><Link to="/detail">Fur coat with very but very very long name</Link></h3>
                                             <p className="price">$143.00</p>
                                             <p className="buttons">
-                                                <Link to="/detail" className="btn btn-default">View detail</Link>
-                                                <Link to="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
+                                                <Link to="/detail" className="btn btn-default" style={{marginRight: 0.5 + 'em'}}>View detail</Link>
+                                                <Link to="/cart" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
                                             </p>
                                         </div>
                                 
@@ -125,8 +125,8 @@ const CategoryDisplayLeft = () => {
                                             <h3><Link to="/detail">White Blouse Armani</Link></h3>
                                             <p className="price"><del>$280</del> $143.00</p>
                                             <p className="buttons">
-                                                <Link to="/detail" className="btn btn-default">View detail</Link>
-                                                <Link to="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
+                                                <Link to="/detail" className="btn btn-default" style={{marginRight: 0.5 + 'em'}}>View detail</Link>
+                                                <Link to="/cart" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
                                             </p>
                                         </div>
                                     
@@ -176,8 +176,8 @@ const CategoryDisplayLeft = () => {
                                             <h3><Link to="/detail">Black Blouse Versace</Link></h3>
                                             <p className="price">$143.00</p>
                                             <p className="buttons">
-                                                <Link to="/detail" className="btn btn-default">View detail</Link>
-                                                <Link to="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
+                                                <Link to="/detail" className="btn btn-default" style={{marginRight: 0.5 + 'em'}}>View detail</Link>
+                                                <Link to="/cart" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
                                             </p>
 
                                         </div>
@@ -210,8 +210,8 @@ const CategoryDisplayLeft = () => {
                                             <h3><Link to="/detail">Black Blouse Versace</Link></h3>
                                             <p className="price">$143.00</p>
                                             <p className="buttons">
-                                                <Link to="/detail" className="btn btn-default">View detail</Link>
-                                                <Link to="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
+                                                <Link to="/detail" className="btn btn-default" style={{marginRight: 0.5 + 'em'}}>View detail</Link>
+                                                <Link to="/cart" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
                                             </p>
 
                                         </div>
@@ -243,8 +243,8 @@ const CategoryDisplayLeft = () => {
                                             <h3><Link to="/detail">White Blouse Versace</Link></h3>
                                             <p className="price">$143.00</p>
                                             <p className="buttons">
-                                                <Link to="/detail" className="btn btn-default">View detail</Link>
-                                                <Link to="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
+                                                <Link to="/detail" className="btn btn-default" style={{marginRight: 0.5 + 'em'}}>View detail</Link>
+                                                <Link to="/cart" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
                                             </p>
 
                                         </div>
@@ -281,8 +281,8 @@ const CategoryDisplayLeft = () => {
                                             <h3><Link to="/detail">Fur coat</Link></h3>
                                             <p className="price">$143.00</p>
                                             <p className="buttons">
-                                                <Link to="/detail" className="btn btn-default">View detail</Link>
-                                                <Link to="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
+                                                <Link to="/detail" className="btn btn-default" style={{marginRight: 0.5 + 'em'}}>View detail</Link>
+                                                <Link to="/cart" className="btn btn-primary"><i className="fa fa-shopping-cart"></i>Add to cart</Link>
                                             </p>
 
                                         </div>
