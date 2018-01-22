@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Table } from 'react-bootstrap';
 import OrderSummary from '../components/OrderSummary';
+import { Link } from 'react-router-dom';
 
 const ShoppingCart = () => {
     return (
@@ -9,7 +10,7 @@ const ShoppingCart = () => {
             <div> 
                 <Col md={12}>
                     <ul className="breadcrumb">
-                        <li><a href="basket.html#">Home</a>
+                        <li><Link to="basket.html#">Home</Link>
                         </li>
                         <li>Shopping cart</li>
                     </ul>
@@ -37,11 +38,11 @@ const ShoppingCart = () => {
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="basket.html#">
+                                                <Link to="basket.html#">
                                                     <img src="img/detailsquare.jpg" alt="White Blouse Armani" />
-                                                </a>
+                                                </Link>
                                             </td>
-                                            <td><a href="basket.html#">White Blouse Armani</a>
+                                            <td><Link to="basket.html#">White Blouse Armani</Link>
                                             </td>
                                             <td>
                                                 <input type="number" defaultValue={2} className="form-control"/>
@@ -49,16 +50,16 @@ const ShoppingCart = () => {
                                             <td>$123.00</td>
                                             <td>$0.00</td>
                                             <td>$246.00</td>
-                                            <td><a href="basket.html#"><i className="fa fa-trash-o"></i></a>
+                                            <td><Link to="basket.html#"><i className="fa fa-trash-o"></i></Link>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="basket.html#">
+                                                <Link to="basket.html#">
                                                     <img src="img/basketsquare.jpg" alt="Black Blouse Armani" />
-                                                </a>
+                                                </Link>
                                             </td>
-                                            <td><a href="basket.html#">Black Blouse Armani</a>
+                                            <td><Link to="basket.html#">Black Blouse Armani</Link>
                                             </td>
                                             <td>
                                                 <input type="number" defaultValue={1} className="form-control" />
@@ -66,7 +67,7 @@ const ShoppingCart = () => {
                                             <td>$200.00</td>
                                             <td>$0.00</td>
                                             <td>$200.00</td>
-                                            <td><a href="basket.html#"><i className="fa fa-trash-o"></i></a>
+                                            <td><Link to="basket.html#"><i className="fa fa-trash-o"></i></Link>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -82,7 +83,7 @@ const ShoppingCart = () => {
 
                             <div className="box-footer">
                                 <div className="pull-left">
-                                    <a href="category.html" className="btn btn-default"><i className="fa fa-chevron-left"></i> Continue shopping</a>
+                                    <Link to="/product" className="btn btn-default"><i className="fa fa-chevron-left"></i> Continue shopping</Link>
                                 </div>
                                 <div className="pull-right">
                                     <button className="btn btn-default" style={{marginRight: 0.5 + 'em'}}><i className="fa fa-refresh"></i> Update basket</button>
@@ -111,20 +112,20 @@ const ShoppingCart = () => {
                                     <div className="flip-container">
                                         <div className="flipper">
                                             <div className="front">
-                                                <a href="detail.html">
+                                                <Link to="/detail">
                                                     <img src="img/product2.jpg" alt="" className="img-responsive" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="back">
-                                                <a href="detail.html">
+                                                <Link to="/detail">
                                                     <img src="img/product2_2.jpg" alt="" className="img-responsive" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="detail.html" className="invisible">
+                                    <Link to="/detail" className="invisible">
                                         <img src="img/product2.jpg" alt="" className="img-responsive" />
-                                    </a>
+                                    </Link>
                                     <div className="text">
                                         <h3>Fur coat</h3>
                                         <p className="price">$143</p>
@@ -139,20 +140,20 @@ const ShoppingCart = () => {
                                     <div className="flip-container">
                                         <div className="flipper">
                                             <div className="front">
-                                                <a href="detail.html">
+                                                <Link to="/detail">
                                                     <img src="img/product1.jpg" alt="" className="img-responsive" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="back">
-                                                <a href="detail.html">
+                                                <Link to="/detail">
                                                     <img src="img/product1_2.jpg" alt="" className="img-responsive" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="detail.html" className="invisible">
+                                    <Link to="/detail" className="invisible">
                                         <img src="img/product1.jpg" alt="" className="img-responsive" />
-                                    </a>
+                                    </Link>
                                     <div className="text">
                                         <h3>Fur coat</h3>
                                         <p className="price">$143</p>
@@ -168,20 +169,20 @@ const ShoppingCart = () => {
                                     <div className="flip-container">
                                         <div className="flipper">
                                             <div className="front">
-                                                <a href="detail.html">
+                                                <Link to="/detail">
                                                     <img src="img/product3.jpg" alt="" className="img-responsive" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="back">
-                                                <a href="detail.html">
+                                                <Link to="/detail">
                                                     <img src="img/product3_2.jpg" alt="" className="img-responsive" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="detail.html" className="invisible">
+                                    <Link to="/detail" className="invisible">
                                         <img src="img/product3.jpg" alt="" className="img-responsive" />
-                                    </a>
+                                    </Link>
                                     <div className="text">
                                         <h3>Fur coat</h3>
                                         <p className="price">$143</p>

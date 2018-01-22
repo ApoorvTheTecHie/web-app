@@ -13,7 +13,9 @@ import {
 	FaqPage,
 	ProductDetail,
 	CategoryDisplayLeft,
-	ShoppingCart
+	ShoppingCart,
+	BlogPost,
+	CheckOutOne
 } from '../../containers';
 import { isLoggedIn } from '../../utils';
 import { Header , Footer } from '../../components';
@@ -66,6 +68,8 @@ const RoutesComponent = () => {
 						<PublicRoute exact path="/product" component={CategoryDisplayLeft} />
 						<PublicRoute exact path="/detail" component={ProductDetail} />
 						<PublicRoute exact path="/cart" component={ShoppingCart} />
+						<PublicRoute exact path="/blog" component={BlogPost} />
+						<PublicRoute exact path="/checkout" component={CheckOutOne} />
 					</Switch>
 				</div>
 			</BrowserRouter>

@@ -58,23 +58,23 @@ export default class Footer extends Component {
                             <h5>Men</h5>
 
                             <ul>
-                                <li><a href="category.html">T-shirts</a>
+                                <li><Link to="/product">T-shirts</Link>
                                 </li>
-                                <li><a href="category.html">Shirts</a>
+                                <li><Link to="/product">Shirts</Link>
                                 </li>
-                                <li><a href="category.html">Accessories</a>
+                                <li><Link to="/product">Accessories</Link>
                                 </li>
                             </ul>
 
                             <h5>Ladies</h5>
                             <ul>
-                                <li><a href="category.html">T-shirts</a>
+                                <li><Link to="/product">T-shirts</Link>
                                 </li>
-                                <li><a href="category.html">Skirts</a>
+                                <li><Link to="/product">Skirts</Link>
                                 </li>
-                                <li><a href="category.html">Pants</a>
+                                <li><Link to="/product">Pants</Link>
                                 </li>
-                                <li><a href="category.html">Accessories</a>
+                                <li><Link to="/product">Accessories</Link>
                                 </li>
                             </ul>
 
@@ -97,7 +97,7 @@ export default class Footer extends Component {
                                 <strong>Great Britain</strong>
                             </p>
 
-                            <a href="contact.html">Go to contact page</a>
+                            <Link to="/contact">Go to contact page</Link>
                             <hr className="hidden-md hidden-lg" />
                         </Col>    
 
@@ -120,11 +120,11 @@ export default class Footer extends Component {
                             <h4>Stay in touch</h4>
 
                                 <p className="social">
-                                    <a href="index.html#" className="facebook external" data-animate-hover="shake"><i className="fa fa-facebook"></i></a>
-                                    <a href="index.html#" className="twitter external" data-animate-hover="shake"><i className="fa fa-twitter"></i></a>
-                                    <a href="index.html#" className="instagram external" data-animate-hover="shake"><i className="fa fa-instagram"></i></a>
-                                    <a href="index.html#" className="gplus external" data-animate-hover="shake"><i className="fa fa-google-plus"></i></a>
-                                    <a href="index.html#" className="email external" data-animate-hover="shake"><i className="fa fa-envelope"></i></a>
+                                    <Link to="/" className="facebook external" data-animate-hover="shake"><i className="fa fa-facebook"></i></Link>
+                                    <Link to="/" className="twitter external" data-animate-hover="shake"><i className="fa fa-twitter"></i></Link>
+                                    <Link to="/" className="instagram external" data-animate-hover="shake"><i className="fa fa-instagram"></i></Link>
+                                    <Link to="/" className="gplus external" data-animate-hover="shake"><i className="fa fa-google-plus"></i></Link>
+                                    <Link to="/" className="email external" data-animate-hover="shake"><i className="fa fa-envelope"></i></Link>
                                 </p>
                         </Col>  
                     </div>

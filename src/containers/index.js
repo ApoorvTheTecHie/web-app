@@ -11,3 +11,5 @@ export FaqPage from './FaqPage';
 export ProductDetail from './ProductDetail';
 export CategoryDisplayLeft from './CategoryDisplayLeft';
 export ShoppingCart from './ShoppingCart';
+export BlogPost from './BlogPost';
+export CheckOutOne from './CheckOutOne';
