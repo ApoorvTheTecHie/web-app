@@ -50,7 +50,7 @@ const ProductDetail = () => {
                                         <p className="price">$124.00</p>
 
                                         <p className="text-center buttons">
-                                            <a href="basket.html" className="btn btn-primary"><i className="fa fa-shopping-cart"></i> Add to cart</a> 
+                                            <a href="basket.html" className="btn btn-primary" style={{marginRight : '0.5em'}}><i className="fa fa-shopping-cart"></i> Add to cart</a> 
                                             <a href="basket.html" className="btn btn-default"><i className="fa fa-heart"></i> Add to wishlist</a>
                                         </p>
 

@@ -42,7 +42,7 @@ const CategoryDisplayLeft = () => {
                                                     <div> 
                                                         <Col md={6} sm={6}>
                                                             <div className="products-number">
-                                                                <strong>Show</strong>  <Link to="category.html#" className="btn btn-default btn-sm btn-primary">12</Link>  <Link to="category.html#" className="btn btn-default btn-sm">24</Link>  <Link to="category.html#" className="btn btn-default btn-sm">All</Link> products
+                                                                <strong>Show</strong>  <Link to="/product" className="btn btn-default btn-sm btn-primary">12</Link>  <Link to="/product" className="btn btn-default btn-sm">24</Link>  <Link to="/product" className="btn btn-default btn-sm">All</Link> products
                                                             </div>
                                                         </Col>    
                                                     </div>
@@ -300,23 +300,23 @@ const CategoryDisplayLeft = () => {
                         <div className="pages">
 
                             <p className="loadMore">
-                                <Link to="category.html#" className="btn btn-primary btn-lg"><i className="fa fa-chevron-down"></i> Load more</Link>
+                                <Link to="/product" className="btn btn-primary btn-lg"><i className="fa fa-chevron-down"></i> Load more</Link>
                             </p>
 
                             <ul className="pagination">
-                                <li><Link to="category.html#">&laquo;</Link>
+                                <li><Link to="/product">&laquo;</Link>
                                 </li>
-                                <li className="active"><Link to="category.html#">1</Link>
+                                <li className="active"><Link to="/product">1</Link>
                                 </li>
-                                <li><Link to="category.html#">2</Link>
+                                <li><Link to="/product">2</Link>
                                 </li>
-                                <li><Link to="category.html#">3</Link>
+                                <li><Link to="/product">3</Link>
                                 </li>
-                                <li><Link to="category.html#">4</Link>
+                                <li><Link to="/product">4</Link>
                                 </li>
-                                <li><Link to="category.html#">5</Link>
+                                <li><Link to="/product">5</Link>
                                 </li>
-                                <li><Link to="category.html#">&raquo;</Link>
+                                <li><Link to="/product">&raquo;</Link>
                                 </li>
                             </ul>
                         </div>

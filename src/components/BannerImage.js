@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BannerImage = () => {
     return (
         <div className="banner">
-            <a href="blog.html#">
+            <Link to="/blog">
                 <img src="img/banner.jpg" alt="sales 2014" className="img-responsive" />
-            </a>
+            </Link>
         </div>
     );
 }

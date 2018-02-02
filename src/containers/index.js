@@ -13,3 +13,4 @@ export CategoryDisplayLeft from './CategoryDisplayLeft';
 export ShoppingCart from './ShoppingCart';
 export BlogPost from './BlogPost';
 export CheckOutOne from './CheckOutOne';
+export AdminHome from './Admin/AdminHome';

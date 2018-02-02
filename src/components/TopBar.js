@@ -20,7 +20,7 @@ function TopBar(props){
                                 </li>
                                 <li><Link to="/contact">Contact</Link>
                                 </li>
-                                <li><a href="index.html#">Recently viewed</a>
+                                <li><Link to="/admin">Admin Login</Link>
                                 </li>
                             </ul>
                         </Col>    
